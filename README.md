@@ -71,7 +71,7 @@
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Forest-Isle&theme=tokyonight&hide_border=true&background=0d1117&stroke=00D4FF&ring=DC143C&fire=DC143C&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=00D4FF&dates=8b949e" />
+    <img width="49%" src="https://streak-stats.demolab.com/?user=Forest-Isle&theme=tokyonight&hide_border=true&background=0d1117&stroke=00D4FF&ring=DC143C&fire=DC143C&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=00D4FF&dates=8b949e" />
   </a>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img width="49%" src="https://github-profile-trophy.vercel.app/?username=Forest-Isle&theme=algolia&no-frame=true&margin-w=8&margin-h=8&column=4" />
