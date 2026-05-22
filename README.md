@@ -98,3 +98,135 @@
 </div>
 
 <br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.5; text-align: left; display: inline-block;">
+
+<span style="color: #CC7832;">// §3 — THE ARSENAL</span>
+<span style="color: #CC7832;">root</span>@<span style="color: #00D4FF;">forest-isle</span>:<span style="color: #CC7832;">~</span># ls -la /ops
+
+</pre>
+
+</div>
+
+<br/>
+
+<!-- CHIMERA -->
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.5; text-align: left; display: inline-block;">
+
+┌─[ <a href="https://github.com/Forest-Isle/chimera" style="color: #DC143C;">chimera</a> ]─────────────────────────────────────────────────────┐
+│  EDR evasion through syscall proxying and memory manipulation.    │
+│  The ghost in the machine that the scanner never sees.            │
+│                                                                   │
+│  <span style="color: #CC7832;">:: deps</span>   C++  ·  Win32  ·  x64 asm                              │
+│  <span style="color: #CC7832;">:: status</span>  active                                               │
+└───────────────────────────────────────────────────────────────────┘
+
+</pre>
+
+</div>
+
+<br/>
+
+<!-- SYNAPSE -->
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.5; text-align: left; display: inline-block;">
+
+┌─[ <a href="https://github.com/Forest-Isle/synapse" style="color: #00D4FF;">synapse</a> ]─────────────────────────────────────────────────────┐
+│  Multi-agent AI framework with MCP integration.                   │
+│  Autonomous task execution. Swarms that finish each other's        │
+│  sentences.                                                       │
+│                                                                   │
+│  <span style="color: #CC7832;">:: deps</span>   Python  ·  MCP  ·  LLMs                                 │
+│  <span style="color: #CC7832;">:: status</span>  active                                               │
+└───────────────────────────────────────────────────────────────────┘
+
+</pre>
+
+</div>
+
+<br/>
+
+<!-- IRONCLAW -->
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.5; text-align: left; display: inline-block;">
+
+┌─[ <a href="https://github.com/Forest-Isle/IronClaw" style="color: #8B0000;">IronClaw</a> ]─────────────────────────────────────────────────────┐
+│  Rust-based C2 infrastructure with gRPC transport.                │
+│  Modular implants. Your network, my rules.                         │
+│                                                                   │
+│  <span style="color: #CC7832;">:: deps</span>   Rust  ·  gRPC  ·  TLS                                     │
+│  <span style="color: #CC7832;">:: status</span>  active                                               │
+└───────────────────────────────────────────────────────────────────┘
+
+</pre>
+
+</div>
+
+<br/>
+
+<!-- ARGON -->
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.5; text-align: left; display: inline-block;">
+
+┌─[ <a href="https://github.com/Forest-Isle/argon" style="color: #76B900;">argon</a> ]─────────────────────────────────────────────────────────┐
+│  GPU inference optimization with CUDA kernels and TensorRT.        │
+│  Every wasted cycle is an insult.                                  │
+│                                                                   │
+│  <span style="color: #CC7832;">:: deps</span>   CUDA  ·  PyTorch  ·  TensorRT                               │
+│  <span style="color: #CC7832;">:: status</span>  active                                               │
+└───────────────────────────────────────────────────────────────────┘
+
+</pre>
+
+</div>
+
+<br/>
+
+<!-- ALPHAFORGE -->
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.5; text-align: left; display: inline-block;">
+
+┌─[ <a href="https://github.com/Forest-Isle/AlphaForge" style="color: #FF6F00;">AlphaForge</a> ]───────────────────────────────────────────────────┐
+│  Autonomous coding agent with tool-use and memory.                 │
+│  Self-reflection loops. It learns from its own mistakes.           │
+│                                                                   │
+│  <span style="color: #CC7832;">:: deps</span>   TypeScript  ·  AI SDK  ·  Tool-use                          │
+│  <span style="color: #CC7832;">:: status</span>  active                                               │
+└───────────────────────────────────────────────────────────────────┘
+
+</pre>
+
+</div>
+
+<br/>
+
+<!-- NYXRAT -->
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.5; text-align: left; display: inline-block;">
+
+┌─[ <a href="https://github.com/Forest-Isle/nyxrat" style="color: #FF0000;">nyxrat</a> ]───────────────────────────────────────────────────────┐
+│  Stealth post-exploitation toolkit with encrypted C2.              │
+│  When you need to be in and out before anyone notices.             │
+│                                                                   │
+│  <span style="color: #CC7832;">:: deps</span>   C++  ·  Sockets  ·  Crypto                                    │
+│  <span style="color: #CC7832;">:: status</span>  active                                               │
+└───────────────────────────────────────────────────────────────────┘
+
+</pre>
+
+</div>
+
+<br/>
