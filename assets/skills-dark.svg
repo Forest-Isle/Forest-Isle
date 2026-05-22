@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="100%" height="auto">
+  <defs>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#0d1520"/>
+    </linearGradient>
+
+    <style>
+      @keyframes pulse { 0%,100% { opacity:0.8 } 50% { opacity:0.3 } }
+      .p1 { animation: pulse 2s ease-in-out infinite }
+      .p2 { animation: pulse 2.5s ease-in-out infinite 0.3s }
+      .p3 { animation: pulse 1.8s ease-in-out infinite 0.7s }
+      .p4 { animation: pulse 3s ease-in-out infinite 1s }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="340" rx="6" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="798" height="338" rx="6" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#CC7832">┌─ /arsenal ──────────────────────────┐</text>
+
+  <!-- === LANGUAGES === -->
+  <text x="30" y="68" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#00D4FF" filter="url(#glow2)">◆ LANGUAGES</text>
+
+  <!-- Language badges -->
+  <rect x="30" y="80" width="68" height="26" rx="3" fill="#00D4FF" opacity="0.08" stroke="#00D4FF" stroke-width="0.6"/>
+  <text x="64" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#00D4FF">C++</text>
+
+  <rect x="106" y="80" width="58" height="26" rx="3" fill="#00D4FF" opacity="0.08" stroke="#00D4FF" stroke-width="0.6"/>
+  <text x="135" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#00D4FF">Rust</text>
+
+  <rect x="172" y="80" width="68" height="26" rx="3" fill="#00D4FF" opacity="0.08" stroke="#00D4FF" stroke-width="0.6"/>
+  <text x="206" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#00D4FF">Python</text>
+
+  <rect x="248" y="80" width="44" height="26" rx="3" fill="#00D4FF" opacity="0.08" stroke="#00D4FF" stroke-width="0.6"/>
+  <text x="270" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#00D4FF">Go</text>
+
+  <rect x="300" y="80" width="34" height="26" rx="3" fill="#00D4FF" opacity="0.08" stroke="#00D4FF" stroke-width="0.6"/>
+  <text x="317" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#00D4FF">C</text>
+
+  <rect x="342" y="80" width="72" height="26" rx="3" fill="#00D4FF" opacity="0.08" stroke="#00D4FF" stroke-width="0.6"/>
+  <text x="378" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#00D4FF">x86_64</text>
+
+  <!-- === AI / ML === -->
+  <text x="30" y="140" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#CC7832" filter="url(#glow2)" class="p1">◆ AI / ML</text>
+
+  <rect x="30" y="152" width="82" height="26" rx="3" fill="#CC7832" opacity="0.08" stroke="#CC7832" stroke-width="0.6"/>
+  <text x="71" y="170" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#CC7832">PyTorch</text>
+
+  <rect x="120" y="152" width="60" height="26" rx="3" fill="#CC7832" opacity="0.08" stroke="#CC7832" stroke-width="0.6"/>
+  <text x="150" y="170" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#CC7832">CUDA</text>
+
+  <rect x="188" y="152" width="96" height="26" rx="3" fill="#CC7832" opacity="0.08" stroke="#CC7832" stroke-width="0.6"/>
+  <text x="236" y="170" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#CC7832">Transformers</text>
+
+  <rect x="292" y="152" width="84" height="26" rx="3" fill="#CC7832" opacity="0.08" stroke="#CC7832" stroke-width="0.6"/>
+  <text x="334" y="170" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#CC7832">LangChain</text>
+
+  <rect x="30" y="186" width="52" height="26" rx="3" fill="#CC7832" opacity="0.08" stroke="#CC7832" stroke-width="0.6"/>
+  <text x="56" y="204" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#CC7832">vLLM</text>
+
+  <rect x="90" y="186" width="64" height="26" rx="3" fill="#CC7832" opacity="0.08" stroke="#CC7832" stroke-width="0.6"/>
+  <text x="122" y="204" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#CC7832">Ollama</text>
+
+  <rect x="162" y="186" width="44" height="26" rx="3" fill="#CC7832" opacity="0.08" stroke="#CC7832" stroke-width="0.6"/>
+  <text x="184" y="204" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#CC7832">JAX</text>
+
+  <!-- === OFFENSIVE === -->
+  <text x="30" y="250" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#DC143C" filter="url(#glow2)" class="p2">◆ OFFENSIVE</text>
+
+  <rect x="30" y="262" width="142" height="26" rx="3" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.6"/>
+  <text x="101" y="280" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#DC143C">Reverse Engineering</text>
+
+  <rect x="180" y="262" width="118" height="26" rx="3" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.6"/>
+  <text x="239" y="280" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#DC143C">Malware Analysis</text>
+
+  <rect x="306" y="262" width="84" height="26" rx="3" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.6"/>
+  <text x="348" y="280" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#DC143C">Red Team</text>
+
+  <rect x="30" y="296" width="90" height="26" rx="3" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.6"/>
+  <text x="75" y="314" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#DC143C">Exploit Dev</text>
+
+  <rect x="128" y="296" width="74" height="26" rx="3" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.6"/>
+  <text x="165" y="314" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#DC143C">Win32 API</text>
+
+  <rect x="210" y="296" width="78" height="26" rx="3" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.6"/>
+  <text x="249" y="314" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#DC143C">EDR Evasion</text>
+
+  <rect x="296" y="296" width="64" height="26" rx="3" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.6"/>
+  <text x="328" y="314" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#DC143C">pwntools</text>
+
+  <!-- Right side: INFRA + TOOLS -->
+  <text x="460" y="68" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#6e7681" filter="url(#glow2)" class="p3">◆ INFRA / TOOLS</text>
+
+  <rect x="460" y="80" width="58" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="489" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">Arch</text>
+
+  <rect x="526" y="80" width="44" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="548" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">Kali</text>
+
+  <rect x="578" y="80" width="64" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="610" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">Docker</text>
+
+  <rect x="650" y="80" width="38" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="669" y="98" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">K8s</text>
+
+  <rect x="460" y="114" width="64" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="492" y="132" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">Neovim</text>
+
+  <rect x="532" y="114" width="38" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="551" y="132" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">Git</text>
+
+  <rect x="578" y="114" width="58" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="607" y="132" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">CMake</text>
+
+  <rect x="644" y="114" width="44" height="26" rx="3" fill="#6e7681" opacity="0.08" stroke="#6e7681" stroke-width="0.6"/>
+  <text x="666" y="132" text-anchor="middle" font-family="'SF Mono',monospace" font-size="12" fill="#6e7681">GDB</text>
+
+  <!-- Right side: STATS -->
+  <text x="460" y="185" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#00D4FF" filter="url(#glow2)" class="p4">◆ BATTLE LOG</text>
+
+  <rect x="460" y="197" width="280" height="50" rx="4" fill="#0d1520" stroke="#1a1a2e" stroke-width="0.8"/>
+  <text x="480" y="218" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#8b949e">User:</text>
+  <text x="560" y="218" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#00D4FF" font-weight="bold">Forest-Isle</text>
+  <text x="480" y="238" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#8b949e">Role:</text>
+  <text x="560" y="238" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#DC143C" font-weight="bold">RED_TEAM_OPERATOR</text>
+
+  <rect x="460" y="255" width="280" height="50" rx="4" fill="#0d1520" stroke="#1a1a2e" stroke-width="0.8"/>
+  <text x="480" y="276" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#8b949e">Status:</text>
+  <text x="560" y="276" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#27c93f" font-weight="bold">ACTIVE</text>
+  <text x="480" y="296" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#8b949e">Clearance:</text>
+  <text x="560" y="296" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#CC7832" font-weight="bold">ULTRAVIOLET</text>
+
+  <!-- Bottom ASCII bar -->
+  <text x="400" y="332" text-anchor="middle" font-family="'SF Mono',monospace" font-size="10" fill="#1a1a2e">████████████████████████████████████████████████████████████████████████████████</text>
+</svg>

@@ -1,49 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="auto">
   <defs>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#0969da" flood-opacity="0.3"/>
     </filter>
   </defs>
 
-  <!-- Terminal background -->
-  <rect x="0" y="0" width="800" height="260" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+  <rect x="0" y="0" width="900" height="380" rx="6" fill="#ffffff"/>
+  <rect x="1" y="1" width="898" height="378" rx="6" fill="none" stroke="#d0d7de" stroke-width="1"/>
 
   <!-- Title bar -->
-  <rect x="0" y="0" width="800" height="32" rx="8" fill="#f6f8fa"/>
-  <rect x="0" y="16" width="800" height="16" fill="#f6f8fa"/>
+  <rect x="1" y="1" width="898" height="36" rx="6" fill="#f6f8fa"/>
+  <rect x="1" y="20" width="898" height="17" fill="#f6f8fa"/>
 
-  <!-- Traffic lights -->
-  <circle cx="16" cy="16" r="6" fill="#ff5f56"/>
-  <circle cx="36" cy="16" r="6" fill="#ffbd2e"/>
-  <circle cx="56" cy="16" r="6" fill="#27c93f"/>
+  <circle cx="18" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="38" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="58" cy="19" r="6" fill="#27c93f"/>
 
-  <!-- Title -->
-  <text x="400" y="22" text-anchor="middle" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="12" fill="#656d76">root@forest-isle:~</text>
+  <text x="450" y="25" text-anchor="middle" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#656d76">root@forest-isle:~</text>
 
-  <!-- Content -->
-  <text x="24" y="68" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#953800">root</text>
-  <text x="56" y="68" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#1f2328">@</text>
-  <text x="68" y="68" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#0969da" font-weight="bold">forest-isle</text>
-  <text x="168" y="68" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#953800">:~</text>
-  <text x="188" y="68" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#1f2328"># whoami</text>
+  <!-- Prompt 1 -->
+  <text x="24" y="70" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#953800">root</text>
+  <text x="56" y="70" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#656d76">@</text>
+  <text x="68" y="70" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#0969da" font-weight="bold">forest-isle</text>
+  <text x="168" y="70" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#953800">:~</text>
+  <text x="188" y="70" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#1f2328"># whoami</text>
 
-  <!-- Forest Isle big name -->
-  <text x="400" y="116" text-anchor="middle" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="36" fill="#0969da" font-weight="700" filter="url(#glow)">Forest Isle</text>
+  <!-- Name -->
+  <text x="450" y="150" text-anchor="middle" font-family="'SF Mono','Fira Code',monospace" font-size="52" font-weight="900" fill="#0969da" filter="url(#shadow)">F O R E S T   I S L E</text>
 
-  <!-- Prompt line 2 -->
-  <text x="24" y="164" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#953800">root</text>
-  <text x="56" y="164" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#1f2328">@</text>
-  <text x="68" y="164" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#0969da" font-weight="bold">forest-isle</text>
-  <text x="168" y="164" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#953800">:~</text>
-  <text x="188" y="164" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#1f2328"># cat /etc/motd</text>
+  <rect x="160" y="168" width="580" height="2" rx="1" fill="#0969da" opacity="0.4"/>
 
-  <!-- Motd -->
-  <text x="24" y="200" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#656d76">the stack is deep. i live between the kernel and the void.</text>
-  <text x="24" y="222" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="14" fill="#656d76">building things that think. breaking things that defend.</text>
+  <text x="24" y="210" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#953800">root</text>
+  <text x="56" y="210" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#656d76">@</text>
+  <text x="68" y="210" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#0969da" font-weight="bold">forest-isle</text>
+  <text x="168" y="210" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#953800">:~</text>
+  <text x="188" y="210" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#1f2328"># cat /etc/motd</text>
 
-  <!-- Cursor -->
-  <rect x="24" y="236" width="10" height="14" fill="#0969da" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
-  </rect>
+  <text x="24" y="242" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#656d76">▸ the stack is deep. i live between the kernel &amp; the void.</text>
+  <text x="24" y="264" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#0969da">▸ building things that think. breaking things that defend.</text>
+  <text x="24" y="286" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#656d76">▸ low-level by choice. high-impact by design.</text>
+
+  <!-- Tags -->
+  <rect x="24" y="312" width="108" height="28" rx="4" fill="#ddf4ff" stroke="#0969da" stroke-width="0.8"/>
+  <text x="78" y="332" text-anchor="middle" font-family="monospace" font-size="12" fill="#0969da">⚡ RED TEAM</text>
+
+  <rect x="144" y="312" width="88" height="28" rx="4" fill="#fff1e5" stroke="#953800" stroke-width="0.8"/>
+  <text x="188" y="332" text-anchor="middle" font-family="monospace" font-size="12" fill="#953800">☠ MALWARE</text>
+
+  <rect x="244" y="312" width="80" height="28" rx="4" fill="#ddf4ff" stroke="#0969da" stroke-width="0.8"/>
+  <text x="284" y="332" text-anchor="middle" font-family="monospace" font-size="12" fill="#0969da">⊞ KERNEL</text>
+
+  <rect x="336" y="312" width="74" height="28" rx="4" fill="#fff1e5" stroke="#953800" stroke-width="0.8"/>
+  <text x="373" y="332" text-anchor="middle" font-family="monospace" font-size="12" fill="#953800">🧠 LLM</text>
+
+  <rect x="422" y="312" width="72" height="28" rx="4" fill="#ddf4ff" stroke="#0969da" stroke-width="0.8"/>
+  <text x="458" y="332" text-anchor="middle" font-family="monospace" font-size="12" fill="#0969da">🦀 RUST</text>
 </svg>
