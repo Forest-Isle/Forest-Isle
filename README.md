@@ -187,3 +187,14 @@
 
     PGP: coming soon
 -->
+<br>
+
+<p align="center">
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+      (signal available · request via email)
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+</p>
