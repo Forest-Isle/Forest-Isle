@@ -230,3 +230,48 @@
 </div>
 
 <br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #c9d1d9; background: transparent; line-height: 1.6; text-align: left; display: inline-block;">
+
+<span style="color: #CC7832;">// §4 — THE WIRE</span>
+<span style="color: #CC7832;">root</span>@<span style="color: #00D4FF;">forest-isle</span>:<span style="color: #CC7832;">~</span># nc -lvp 31337
+
+<span style="color: #6e7681;">Listening on [0.0.0.0]:31337 ...</span>
+
+  <span style="color: #CC7832;">></span> <span style="color: #00D4FF;">gh</span>      <a href="https://github.com/Forest-Isle" style="color: #c9d1d9;">github.com/Forest-Isle</a>
+  <span style="color: #CC7832;">></span> <span style="color: #00D4FF;">mail</span>    <a href="mailto:forest.isle@proton.me" style="color: #c9d1d9;">forest.isle@proton.me</a>
+
+</pre>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+<pre style="font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; color: #6e7681; background: transparent; line-height: 1.6;">
+
+<span style="color: #6e7681;">// the quieter you become, the more you are able to hear</span>
+
+</pre>
+
+</div>
+
+<br/>
+
+<!--
+    hidden in plain sight.
+
+    If you're reading this, you know the game.
+    Reach out. Let's build something that matters.
+-->
