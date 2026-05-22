@@ -50,6 +50,15 @@
 
 ---
 
+## 🏆 · ACHIEVEMENTS
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/achievements-dark.svg">
+  <img alt="Achievements showcase: 5 earned, 4 in progress" src="assets/achievements-dark.svg" width="100%">
+</picture>
+
+---
+
 ## 🎯 · OPERATIONS
 
 <br>
