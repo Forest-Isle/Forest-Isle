@@ -1,261 +1,123 @@
-<div align="center">
-
-<pre>
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   <font color="#CC7832">root</font>@<font color="#00D4FF"><strong>forest-isle</strong></font>:<font color="#CC7832">~</font># whoami                ║
-║   <font color="#00D4FF"><strong>Forest Isle</strong></font>                                            ║
-║                                                              ║
-║   <font color="#CC7832">root</font>@<font color="#00D4FF"><strong>forest-isle</strong></font>:<font color="#CC7832">~</font># cat /etc/motd               ║
-║   the stack is deep. i live between the kernel              ║
-║   and the void. building things that think.                  ║
-║   breaking things that defend.                               ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-
-</pre>
-
-</div>
-
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="root@forest-isle:~# whoami — Forest Isle" src="assets/header-dark.svg" width="100%">
+</picture>
 
 ---
 
-<br/>
+<br>
 
-<div align="center">
+> *Deep in the stack, between CUDA kernels and Win32 syscalls, where LLMs meet evasions and Rust rewrites C++ nightmares. I build things that think. I break things that defend. Low-level by choice, high-impact by design. Not a job title — an obsession.*
 
-<pre>
-<font color="#CC7832">// §1 — THE SIGNAL</font>
-
-  deep in the stack, between CUDA kernels and Win32 syscalls,
-  where LLMs meet evasions and Rust rewrites C++ nightmares.
-
-  i build things that think, break things that defend,
-  and occasionally write assembly for fun.
-
-  low-level by choice. high-impact by design.
-  not a job title — an obsession.
-
-</pre>
-
-</div>
-
-<br/>
+<br>
 
 ---
 
-<br/>
+## ∎ Arsenal
 
-<div align="center">
-
-<pre>
-<font color="#CC7832">// §2 — THE STACK</font>
-<font color="#CC7832">root</font>@<font color="#00D4FF">forest-isle</font>:<font color="#CC7832">~</font># tree /arsenal
-
-<font color="#CC7832">/arsenal</font>
-├── <font color="#CC7832">languages/</font>
-│   ├── cpp      <font color="#6e7681">[primary blade]</font>
-│   ├── rust     <font color="#6e7681">[the rewrite]</font>
-│   ├── python   <font color="#6e7681">[the glue]</font>
-│   ├── go       <font color="#6e7681">[the dispatch]</font>
-│   ├── c        <font color="#6e7681">[the root]</font>
-│   ├── ts       <font color="#6e7681">[the interface]</font>
-│   ├── bash     <font color="#6e7681">[the stitch]</font>
-│   └── x86_64   <font color="#6e7681">[the truth]</font>
-├── <font color="#CC7832">ai-ml/</font>
-│   ├── pytorch
-│   ├── cuda
-│   ├── transformers
-│   ├── langchain
-│   ├── vllm
-│   ├── ollama
-│   └── jax
-├── <font color="#CC7832">offensive/</font>
-│   ├── reverse-engineering
-│   ├── malware-analysis
-│   ├── red-team-ops
-│   ├── exploit-dev
-│   ├── win32-api
-│   ├── pwntools
-│   ├── ida-pro
-│   └── edr-evasion
-└── <font color="#CC7832">infra/</font>
-    ├── arch
-    ├── kali
-    ├── docker
-    ├── k8s
-    ├── neovim
-    ├── git
-    ├── cmake
-    └── gdb
-
-</pre>
-
-</div>
-
-<br/>
+<table>
+<tr><th align="left">Category</th><th align="left">Kit</th></tr>
+<tr><td><strong>Languages</strong></td><td>C++ · Rust · Python · Go · C · TypeScript · Bash · x86_64 Asm</td></tr>
+<tr><td><strong>AI / ML</strong></td><td>PyTorch · CUDA · Transformers · LangChain · vLLM · Ollama · JAX</td></tr>
+<tr><td><strong>Offensive</strong></td><td>Reverse Engineering · Malware Analysis · Red Team Ops · Exploit Dev · Win32 API · pwntools · IDA Pro · EDR Evasion</td></tr>
+<tr><td><strong>Infrastructure</strong></td><td>Arch Linux · Kali · Docker · Kubernetes · Neovim · Git · CMake · GDB</td></tr>
+</table>
 
 ---
 
-<br/>
+## ∎ Operations
 
-<div align="center">
+<details>
+<summary><strong>chimera</strong> — EDR Evasion Framework</summary>
+<br>
 
-<pre>
-<font color="#CC7832">// §3 — THE ARSENAL</font>
-<font color="#CC7832">root</font>@<font color="#00D4FF">forest-isle</font>:<font color="#CC7832">~</font># ls -la /ops
+> EDR evasion through syscall proxying and memory manipulation. The ghost in the machine that the scanner never sees.
 
-</pre>
+`C++` `Win32` `x64 Asm`
 
-</div>
+[:octocat: github.com/Forest-Isle/chimera](https://github.com/Forest-Isle/chimera)
 
-<br/>
+</details>
 
-<!-- CHIMERA -->
-<div align="center">
+<details>
+<summary><strong>synapse</strong> — Multi-Agent AI Orchestration</summary>
+<br>
 
-<pre>
-┌─[ <a href="https://github.com/Forest-Isle/chimera"><font color="#DC143C">chimera</font></a> ]─────────────────────────────────────────────────────┐
-│  EDR evasion through syscall proxying and memory manipulation.    │
-│  The ghost in the machine that the scanner never sees.            │
-│                                                                   │
-│  <font color="#CC7832">:: deps</font>   C++  ·  Win32  ·  x64 asm                              │
-│  <font color="#CC7832">:: status</font>  active                                               │
-└───────────────────────────────────────────────────────────────────┘
+> Multi-agent AI framework with MCP integration. Swarms that finish each other's sentences.
 
-</pre>
+`Python` `MCP` `LLMs`
 
-</div>
+[:octocat: github.com/Forest-Isle/synapse](https://github.com/Forest-Isle/synapse)
 
-<br/>
+</details>
 
-<!-- SYNAPSE -->
-<div align="center">
+<details>
+<summary><strong>IronClaw</strong> — Red Team C2 Infrastructure</summary>
+<br>
 
-<pre>
-┌─[ <a href="https://github.com/Forest-Isle/synapse"><font color="#00D4FF">synapse</font></a> ]─────────────────────────────────────────────────────┐
-│  Multi-agent AI framework with MCP integration.                   │
-│  Autonomous task execution. Swarms that finish each other's        │
-│  sentences.                                                       │
-│                                                                   │
-│  <font color="#CC7832">:: deps</font>   Python  ·  MCP  ·  LLMs                                 │
-│  <font color="#CC7832">:: status</font>  active                                               │
-└───────────────────────────────────────────────────────────────────┘
+> Rust-based C2 infrastructure with gRPC transport. Modular implants. Your network, my rules.
 
-</pre>
+`Rust` `gRPC` `TLS`
 
-</div>
+[:octocat: github.com/Forest-Isle/IronClaw](https://github.com/Forest-Isle/IronClaw)
 
-<br/>
+</details>
 
-<!-- IRONCLAW -->
-<div align="center">
+<details>
+<summary><strong>argon</strong> — GPU Inference Optimization</summary>
+<br>
 
-<pre>
-┌─[ <a href="https://github.com/Forest-Isle/IronClaw"><font color="#8B0000">IronClaw</font></a> ]─────────────────────────────────────────────────────┐
-│  Rust-based C2 infrastructure with gRPC transport.                │
-│  Modular implants. Your network, my rules.                         │
-│                                                                   │
-│  <font color="#CC7832">:: deps</font>   Rust  ·  gRPC  ·  TLS                                     │
-│  <font color="#CC7832">:: status</font>  active                                               │
-└───────────────────────────────────────────────────────────────────┘
+> Custom CUDA kernels and TensorRT acceleration. Every wasted cycle is an insult.
 
-</pre>
+`CUDA` `PyTorch` `TensorRT`
 
-</div>
+[:octocat: github.com/Forest-Isle/argon](https://github.com/Forest-Isle/argon)
 
-<br/>
+</details>
 
-<!-- ARGON -->
-<div align="center">
+<details>
+<summary><strong>AlphaForge</strong> — Autonomous Coding Agent</summary>
+<br>
 
-<pre>
-┌─[ <a href="https://github.com/Forest-Isle/argon"><font color="#76B900">argon</font></a> ]─────────────────────────────────────────────────────────┐
-│  GPU inference optimization with CUDA kernels and TensorRT.        │
-│  Every wasted cycle is an insult.                                  │
-│                                                                   │
-│  <font color="#CC7832">:: deps</font>   CUDA  ·  PyTorch  ·  TensorRT                               │
-│  <font color="#CC7832">:: status</font>  active                                               │
-└───────────────────────────────────────────────────────────────────┘
+> Agent with tool-use, memory, and self-reflection loops. It learns from its own mistakes.
 
-</pre>
+`TypeScript` `AI SDK` `Tool-use`
 
-</div>
+[:octocat: github.com/Forest-Isle/AlphaForge](https://github.com/Forest-Isle/AlphaForge)
 
-<br/>
+</details>
 
-<!-- ALPHAFORGE -->
-<div align="center">
+<details>
+<summary><strong>nyxrat</strong> — Post-Exploitation Toolkit</summary>
+<br>
 
-<pre>
-┌─[ <a href="https://github.com/Forest-Isle/AlphaForge"><font color="#FF6F00">AlphaForge</font></a> ]───────────────────────────────────────────────────┐
-│  Autonomous coding agent with tool-use and memory.                 │
-│  Self-reflection loops. It learns from its own mistakes.           │
-│                                                                   │
-│  <font color="#CC7832">:: deps</font>   TypeScript  ·  AI SDK  ·  Tool-use                          │
-│  <font color="#CC7832">:: status</font>  active                                               │
-└───────────────────────────────────────────────────────────────────┘
+> Stealth toolkit with encrypted C2 channels. In and out before anyone notices.
 
-</pre>
+`C++` `Sockets` `Crypto`
 
-</div>
+[:octocat: github.com/Forest-Isle/nyxrat](https://github.com/Forest-Isle/nyxrat)
 
-<br/>
-
-<!-- NYXRAT -->
-<div align="center">
-
-<pre>
-┌─[ <a href="https://github.com/Forest-Isle/nyxrat"><font color="#FF0000">nyxrat</font></a> ]───────────────────────────────────────────────────────┐
-│  Stealth post-exploitation toolkit with encrypted C2.              │
-│  When you need to be in and out before anyone notices.             │
-│                                                                   │
-│  <font color="#CC7832">:: deps</font>   C++  ·  Sockets  ·  Crypto                                    │
-│  <font color="#CC7832">:: status</font>  active                                               │
-└───────────────────────────────────────────────────────────────────┘
-
-</pre>
-
-</div>
-
-<br/>
+</details>
 
 ---
 
-<br/>
+## ∎ Contact
 
-<div align="center">
+<br>
 
-<pre>
-<font color="#CC7832">// §4 — THE WIRE</font>
-<font color="#CC7832">root</font>@<font color="#00D4FF">forest-isle</font>:<font color="#CC7832">~</font># nc -lvp 31337
+| :octocat: [Forest-Isle](https://github.com/Forest-Isle) | :incoming_envelope: [forest.isle@proton.me](mailto:forest.isle@proton.me) |
+|---|---|
 
-<font color="#6e7681">Listening on [0.0.0.0]:31337 ...</font>
-
-  <font color="#CC7832">></font> <font color="#00D4FF">gh</font>      <a href="https://github.com/Forest-Isle"><font color="#c9d1d9">github.com/Forest-Isle</font></a>
-  <font color="#CC7832">></font> <font color="#00D4FF">mail</font>    <a href="mailto:forest.isle@proton.me"><font color="#c9d1d9">forest.isle@proton.me</font></a>
-
-</pre>
-
-</div>
-
-<br/>
+<br>
 
 ---
 
-<br/>
+<br>
 
-<div align="center">
+<p align="center"><sub>// the quieter you become, the more you are able to hear</sub></p>
 
-<pre>
-<font color="#6e7681">// the quieter you become, the more you are able to hear</font>
-
-</pre>
-
-</div>
-
-<br/>
+<br>
 
 <!--
     hidden in plain sight.
