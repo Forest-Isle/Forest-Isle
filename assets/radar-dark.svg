@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="auto">
+  <defs>
+    <filter id="glowCyan">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowRed">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowAmber">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060b11"/>
+      <stop offset="100%" stop-color="#0d1520"/>
+    </linearGradient>
+
+    <style>
+      @keyframes pulse { 0%,100% { opacity:0.7 } 50% { opacity:0.2 } }
+      @keyframes scanRotate { 0% { transform:rotate(0deg) } 100% { transform:rotate(360deg) } }
+      .p { animation: pulse 2s ease-in-out infinite }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="480" rx="5" fill="url(#bg)"/>
+  <rect x="1" y="1" width="598" height="478" rx="5" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="300" y="28" text-anchor="middle" font-family="'SF Mono','Fira Code',monospace" font-size="12" fill="#CC7832" filter="url(#glowAmber)">┌─ /intel/threat-matrix ─────────────────────────┐</text>
+
+  <!-- Center -->
+  <circle cx="280" cy="270" r="130" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+  <circle cx="280" cy="270" r="100" fill="none" stroke="#1a1a2e" stroke-width="0.8"/>
+  <circle cx="280" cy="270" r="70" fill="none" stroke="#1a1a2e" stroke-width="0.6"/>
+  <circle cx="280" cy="270" r="40" fill="none" stroke="#1a1a2e" stroke-width="0.4"/>
+
+  <!-- Scan line -->
+  <line x1="280" y1="270" x2="280" y2="140" stroke="#00D4FF" stroke-width="1.5" opacity="0.3" filter="url(#glowCyan)" class="p">
+    <animateTransform attributeName="transform" type="rotate" from="0 280 270" to="360 280 270" dur="8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Axis lines -->
+  <line x1="280" y1="270" x2="280" y2="140" stroke="#1a1a2e" stroke-width="0.8"/>
+  <line x1="280" y1="270" x2="410" y2="270" stroke="#1a1a2e" stroke-width="0.8"/>
+  <line x1="280" y1="270" x2="150" y2="270" stroke="#1a1a2e" stroke-width="0.8"/>
+  <line x1="280" y1="270" x2="380" y2="160" stroke="#1a1a2e" stroke-width="0.8"/>
+  <line x1="280" y1="270" x2="180" y2="160" stroke="#1a1a2e" stroke-width="0.8"/>
+
+  <!-- Pentagon: Offensive (top), Systems (top-right), AI (bottom-right), Languages (bottom-left), Infra (top-left) -->
+  <!-- Offensive: 95 (top) -->
+  <polygon points="280,140 403,245 375,380 185,380 157,245" fill="#00D4FF" opacity="0.06" stroke="#00D4FF" stroke-width="1.5" filter="url(#glowCyan)"/>
+
+  <!-- Labels -->
+  <!-- Offensive (top) -->
+  <line x1="280" y1="140" x2="280" y2="270" stroke="#1a1a2e" stroke-width="0.5"/>
+  <text x="280" y="130" text-anchor="middle" font-family="'SF Mono','Fira Code',monospace" font-size="11" fill="#DC143C" filter="url(#glowRed)">☠ OFFENSIVE</text>
+  <text x="280" y="252" text-anchor="middle" font-family="monospace" font-size="10" fill="#00D4FF">95%</text>
+
+  <!-- Systems (top-right) -->
+  <text x="420" y="242" font-family="'SF Mono','Fira Code',monospace" font-size="11" fill="#CC7832" filter="url(#glowAmber)">⊞ SYSTEMS</text>
+  <text x="390" y="260" font-family="monospace" font-size="10" fill="#00D4FF">90%</text>
+
+  <!-- AI/ML (bottom-right) -->
+  <text x="390" y="400" font-family="'SF Mono','Fira Code',monospace" font-size="11" fill="#00D4FF" filter="url(#glowCyan)">🧠 AI / ML</text>
+  <text x="370" y="400" font-family="monospace" font-size="10" fill="#00D4FF">88%</text>
+
+  <!-- Languages (bottom-left) -->
+  <text x="140" y="400" font-family="'SF Mono','Fira Code',monospace" font-size="11" fill="#27c93f">💻 LANGUAGES</text>
+  <text x="195" y="400" font-family="monospace" font-size="10" fill="#00D4FF">92%</text>
+
+  <!-- Infra (top-left) -->
+  <text x="100" y="242" font-family="'SF Mono','Fira Code',monospace" font-size="11" fill="#6e7681">⚙ INFRA</text>
+  <text x="170" y="252" font-family="monospace" font-size="10" fill="#00D4FF">85%</text>
+
+  <!-- RIGHT PANEL: Legend -->
+  <rect x="440" y="60" width="145" height="260" rx="4" fill="#0d1520" stroke="#1a1a2e" stroke-width="0.8"/>
+
+  <text x="512" y="82" text-anchor="middle" font-family="'SF Mono','Fira Code',monospace" font-size="10" fill="#6e7681">THREAT INDEX</text>
+
+  <!-- Threat bars -->
+  <rect x="455" y="95" width="115" height="16" rx="2" fill="#DC143C" opacity="0.1" stroke="#DC143C" stroke-width="0.6"/>
+  <rect x="455" y="95" width="109" height="16" rx="2" fill="#DC143C" opacity="0.4"/>
+  <text x="512" y="107" text-anchor="middle" font-family="monospace" font-size="9" fill="#DC143C">OFFENSIVE · 95%</text>
+
+  <rect x="455" y="118" width="115" height="16" rx="2" fill="#00D4FF" opacity="0.1" stroke="#00D4FF" stroke-width="0.6"/>
+  <rect x="455" y="118" width="105" height="16" rx="2" fill="#00D4FF" opacity="0.4"/>
+  <text x="512" y="130" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D4FF">LANGUAGES · 92%</text>
+
+  <rect x="455" y="141" width="115" height="16" rx="2" fill="#CC7832" opacity="0.1" stroke="#CC7832" stroke-width="0.6"/>
+  <rect x="455" y="141" width="103" height="16" rx="2" fill="#CC7832" opacity="0.4"/>
+  <text x="512" y="153" text-anchor="middle" font-family="monospace" font-size="9" fill="#CC7832">SYSTEMS · 90%</text>
+
+  <rect x="455" y="164" width="115" height="16" rx="2" fill="#00D4FF" opacity="0.1" stroke="#00D4FF" stroke-width="0.6"/>
+  <rect x="455" y="164" width="100" height="16" rx="2" fill="#00D4FF" opacity="0.4"/>
+  <text x="512" y="176" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D4FF">AI / ML · 88%</text>
+
+  <rect x="455" y="187" width="115" height="16" rx="2" fill="#6e7681" opacity="0.1" stroke="#6e7681" stroke-width="0.6"/>
+  <rect x="455" y="187" width="97" height="16" rx="2" fill="#6e7681" opacity="0.4"/>
+  <text x="512" y="199" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681">INFRA · 85%</text>
+
+  <!-- Aggregate -->
+  <line x1="455" y1="215" x2="570" y2="215" stroke="#1a1a2e" stroke-width="0.5"/>
+  <text x="455" y="232" font-family="'SF Mono','Fira Code',monospace" font-size="10" fill="#6e7681">AGGREGATE</text>
+  <text x="570" y="232" text-anchor="end" font-family="'SF Mono','Fira Code',monospace" font-size="14" fill="#00D4FF" font-weight="bold" filter="url(#glowCyan)">90%</text>
+
+  <text x="455" y="255" font-family="monospace" font-size="9" fill="#CC7832">THREAT: CRITICAL</text>
+  <text x="455" y="272" font-family="monospace" font-size="9" fill="#27c93f">STATUS: OPERATIONAL</text>
+  <text x="455" y="289" font-family="monospace" font-size="9" fill="#6e7681">ENGAGEMENT: ARMED</text>
+  <text x="455" y="306" font-family="monospace" font-size="9" fill="#DC143C">CLASS: ULTRAVIOLET</text>
+
+  <!-- Blips on radar -->
+  <circle cx="280" cy="232" r="2.5" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0.5;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="200" r="2" fill="#DC143C" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0.3;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="240" cy="300" r="2" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0.3;0" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="300" r="1.5" fill="#CC7832" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0.2;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

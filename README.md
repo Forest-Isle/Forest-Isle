@@ -25,6 +25,13 @@
   <img alt="Arsenal: languages, AI/ML, offensive, infrastructure" src="assets/skills-dark.svg" width="100%">
 </picture>
 
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
+  <img alt="Threat radar: offensive 95%, languages 92%, systems 90%, AI 88%, infra 85%" src="assets/radar-dark.svg" width="100%">
+</picture>
+
 ---
 
 ## 📊 · BATTLE LOG
@@ -34,21 +41,28 @@
   <img alt="Battle stats dashboard" src="assets/stats-dark.svg" width="100%">
 </picture>
 
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mission-dark.svg">
+  <img alt="Active operations briefing" src="assets/mission-dark.svg" width="100%">
+</picture>
+
 ---
 
 ## 🎯 · OPERATIONS
 
 <br>
 
-<details open>
+<details>
 <summary><strong><code>┌─[ CHIMERA ]</code></strong> — EDR Evasion Framework</summary>
 <br>
 
-> EDR evasion through syscall proxying and memory manipulation. The scanner sweeps the room. It never sees the shadow in the corner. The ghost doesn't show up on infrared.
+> EDR evasion through syscall proxying and memory manipulation. The scanner sweeps the room. It never sees the shadow in the corner. The ghost doesn't show up on infrared. Millions of dollars in detection engineering, and one process they'll never find.
 
 | `:: deps` | `:: status` | `:: threat` |
 |---|---|---|
-| C++ · Win32 · x64 asm | **ACTIVE** | `███░ CRITICAL` |
+| C++ · Win32 · x64 asm | **ACTIVE** | `████ CRITICAL` |
 
 **[▶ github.com/Forest-Isle/chimera](https://github.com/Forest-Isle/chimera)**
 
@@ -60,11 +74,11 @@
 <summary><strong><code>┌─[ SYNAPSE ]</code></strong> — Multi-Agent AI Swarm</summary>
 <br>
 
-> Multi-agent AI framework with MCP integration. Autonomous task execution. Swarms that finish each other's sentences. A hive mind, but the honey is code. The queen runs on a 4090.
+> Multi-agent AI framework with MCP integration. Autonomous task execution. Swarms that finish each other's sentences. A hive mind, but the honey is code. The queen runs on a 4090, and she's hungry.
 
 | `:: deps` | `:: status` | `:: threat` |
 |---|---|---|
-| Python · MCP · LLMs | **ACTIVE** | `██░░ HIGH` |
+| Python · MCP · LLMs | **ACTIVE** | `███░ HIGH` |
 
 **[▶ github.com/Forest-Isle/synapse](https://github.com/Forest-Isle/synapse)**
 
@@ -76,7 +90,7 @@
 <summary><strong><code>┌─[ IRONCLAW ]</code></strong> — Red Team C2</summary>
 <br>
 
-> Rust-based C2 infrastructure with gRPC transport. Modular implants. Encrypted comms. Zero-day delivery system. If you're reading this signature, it's already too late.
+> Rust-based C2 infrastructure with gRPC transport. Modular implants. Encrypted comms. Zero-day delivery system. If you're reading this packet signature, it's already too late. Your network. My rules.
 
 | `:: deps` | `:: status` | `:: threat` |
 |---|---|---|
@@ -92,11 +106,11 @@
 <summary><strong><code>┌─[ ARGON ]</code></strong> — GPU Inference Optimization</summary>
 <br>
 
-> Custom CUDA kernels and TensorRT acceleration. Squeezing blood from silicon. Milliseconds matter. Microseconds matter. Every wasted cycle is a personal insult.
+> Custom CUDA kernels and TensorRT acceleration. Squeezing blood from silicon. Milliseconds matter. Microseconds matter. Every wasted cycle is a personal insult. The GPU doesn't sleep. Neither do I.
 
 | `:: deps` | `:: status` | `:: threat` |
 |---|---|---|
-| CUDA · PyTorch · TensorRT | **ACTIVE** | `██░░ HIGH` |
+| CUDA · PyTorch · TensorRT | **ACTIVE** | `███░ HIGH` |
 
 **[▶ github.com/Forest-Isle/argon](https://github.com/Forest-Isle/argon)**
 
@@ -108,11 +122,11 @@
 <summary><strong><code>┌─[ ALPHAFORGE ]</code></strong> — Autonomous Coding Agent</summary>
 <br>
 
-> Agent with tool-use, memory, and self-reflection loops. Give it a problem. Watch it think. Watch it fail. Watch it learn. Then watch it win. It gets better every time you run it.
+> Agent with tool-use, memory, and self-reflection loops. Give it a problem. Watch it think. Watch it fail. Watch it learn. Watch it win. Recursive self-improvement. It's not just coding — it's evolution.
 
 | `:: deps` | `:: status` | `:: threat` |
 |---|---|---|
-| TypeScript · AI SDK · Tool-use | **ACTIVE** | `██░░ HIGH` |
+| TypeScript · AI SDK · Tool-use | **ACTIVE** | `███░ HIGH` |
 
 **[▶ github.com/Forest-Isle/AlphaForge](https://github.com/Forest-Isle/AlphaForge)**
 
@@ -124,7 +138,7 @@
 <summary><strong><code>┌─[ NYXRAT ]</code></strong> — Post-Exploitation Toolkit</summary>
 <br>
 
-> Stealth toolkit with encrypted C2 channels. Named after the goddess of night for a reason. Persistence. Privilege escalation. Lateral movement. Exfiltration. Ghost protocol.
+> Stealth toolkit with encrypted C2 channels. Named after the goddess of night for a reason. Persistence. Privilege escalation. Lateral movement. Exfiltration. Ghost protocol. When darkness falls, so do your defenses.
 
 | `:: deps` | `:: status` | `:: threat` |
 |---|---|---|
