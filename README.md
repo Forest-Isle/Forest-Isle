@@ -1,16 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00d4ff&height=200&section=header&text=Forest%20Isle&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=between%20the%20kernel%20and%20the%20model&descAlignY=60&descSize=18" width="100%" alt="Forest Isle" />
-
-<a href="https://github.com/Forest-Isle">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=640&height=50&lines=systems+that+think;Rust+rewrites+%C2%B7+CUDA+kernels+%C2%B7+agent+loops;low-level+by+choice+%C2%B7+high-impact+by+design" alt="typing tagline" />
-</a>
+<img src="assets/header-dark.svg" width="720" alt="forest@isle:~$ whoami — Forest Isle" />
 
 </div>
 
 ---
 
-## `> whoami`
+## `$ cat manifesto.txt`
 
 > Deep in the stack — between CUDA kernels and the models that run on them.
 > I build systems that think, and study the ones that defend.
@@ -19,7 +15,7 @@
 
 ---
 
-## ⚙ · STACK
+## `$ ls stack/`
 
 <div align="center">
 
@@ -31,7 +27,7 @@
 
 ---
 
-## 📊 · STATS
+## `$ git log --stat`
 
 <div align="center">
 
@@ -50,7 +46,7 @@
 
 ---
 
-## 🛠 · PROJECTS
+## `$ ls projects/`
 
 <div align="center">
 
