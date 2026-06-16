@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 224" width="720" height="224" role="img" aria-label="tree ~/stack: languages, ai/ml, systems, ship">
+  <defs>
+    <style>.mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }</style>
+  </defs>
+
+  <rect x="4" y="4" width="712" height="216" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <text class="mono" x="32" y="48" font-size="17" font-weight="700" fill="#d4b483">~/stack</text>
+
+  <text class="mono" y="88" font-size="15">
+    <tspan x="32" fill="#6e7681">├─</tspan>
+    <tspan x="64" fill="#d4b483">languages</tspan>
+    <tspan x="184" fill="#8b949e">go · rust · python · c++ · c · typescript · swift · bash</tspan>
+  </text>
+
+  <text class="mono" y="124" font-size="15">
+    <tspan x="32" fill="#6e7681">├─</tspan>
+    <tspan x="64" fill="#d4b483">ai · ml</tspan>
+    <tspan x="184" fill="#8b949e">pytorch · cuda · transformers · vllm</tspan>
+  </text>
+
+  <text class="mono" y="160" font-size="15">
+    <tspan x="32" fill="#6e7681">├─</tspan>
+    <tspan x="64" fill="#d4b483">systems</tspan>
+    <tspan x="184" fill="#8b949e">linux · docker · git · neovim · gdb</tspan>
+  </text>
+
+  <text class="mono" y="196" font-size="15">
+    <tspan x="32" fill="#6e7681">└─</tspan>
+    <tspan x="64" fill="#d4b483">ship</tspan>
+    <tspan x="184" fill="#8b949e">grpc · sqlite · wasm</tspan>
+  </text>
+</svg>

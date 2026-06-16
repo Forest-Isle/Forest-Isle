@@ -15,26 +15,21 @@
 
 ---
 
-## `$ ls stack/`
+## `$ tree stack/`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,rust,py,cpp,c,ts,swift,bash,html&theme=dark" alt="languages" />
-
-<img src="https://skillicons.dev/icons?i=pytorch,docker,linux,git,neovim&theme=dark" alt="tools" />
+<img src="assets/stack-dark.svg" width="720" alt="~/stack — languages, ai/ml, systems, ship" />
 
 </div>
 
 ---
 
-## `$ git log --stat`
+## `$ neofetch`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Forest-Isle&show_icons=true&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e&include_all_commits=true" height="165" alt="stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Forest-Isle&layout=compact&hide_border=true&bg_color=00000000&title_color=00D4FF&text_color=8b949e&langs_count=8" height="165" alt="top languages" />
-
-<img src="https://streak-stats.demolab.com?user=Forest-Isle&hide_border=true&background=00000000&border=00000000&ring=00D4FF&fire=CC7832&currentStreakLabel=00D4FF&sideLabels=8b949e&dates=6e7681&stroke=8b949e" alt="streak" />
+<img src="assets/stats-dark.svg" width="720" alt="forest@isle — stack, domains, building, repos" />
 
 </div>
 
@@ -50,22 +45,14 @@
 
 <div align="center">
 
-<a href="https://github.com/Forest-Isle/IronClaw">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Forest-Isle&repo=IronClaw&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e" alt="IronClaw" />
-</a>
-<a href="https://github.com/Forest-Isle/DeepRadar">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Forest-Isle&repo=DeepRadar&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e" alt="DeepRadar" />
-</a>
+▸ **[ironclaw](https://github.com/Forest-Isle/IronClaw)** &nbsp; `Go` <br/>
+▸ **[deepradar](https://github.com/Forest-Isle/DeepRadar)** &nbsp; `Python`
+
+<sub>// deeper work lives in private repos</sub>
 
 </div>
 
-<!--
-  Add pin cards here once these repos are made public:
-  synapse · AlphaForge · CodeForge · AgentX · TradeMind
-  <a href="https://github.com/Forest-Isle/synapse">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Forest-Isle&repo=synapse&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e" alt="synapse" />
-  </a>
--->
+<!-- Add entries here as repos are made public: synapse · AlphaForge · CodeForge · AgentX · TradeMind -->
 
 ---
 

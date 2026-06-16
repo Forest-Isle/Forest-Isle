@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 224" width="720" height="224" role="img" aria-label="neofetch profile: stack, domains, building, repos">
+  <defs>
+    <filter id="glow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>.mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }</style>
+  </defs>
+
+  <rect x="4" y="4" width="712" height="216" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <text class="mono" x="32" y="46" font-size="17" font-weight="700" fill="#00d4ff" filter="url(#glow2)">forest@isle</text>
+  <text class="mono" x="32" y="64" font-size="15" fill="#6e7681">───────────────────────────────────────────</text>
+
+  <text class="mono" y="100" font-size="15">
+    <tspan x="32" fill="#d4b483">stack</tspan>
+    <tspan x="150" fill="#8b949e">Go · Rust · Python · C++ · TypeScript · Swift</tspan>
+  </text>
+
+  <text class="mono" y="134" font-size="15">
+    <tspan x="32" fill="#d4b483">domains</tspan>
+    <tspan x="150" fill="#8b949e">low-level systems · AI agents · security research</tspan>
+  </text>
+
+  <text class="mono" y="168" font-size="15">
+    <tspan x="32" fill="#d4b483">building</tspan>
+    <tspan x="150" fill="#8b949e">inference engines, agents, and the tools that run them</tspan>
+  </text>
+
+  <text class="mono" y="202" font-size="15">
+    <tspan x="32" fill="#d4b483">repos</tspan>
+    <tspan x="150" fill="#8b949e">public + private · mostly the latter</tspan>
+  </text>
+</svg>

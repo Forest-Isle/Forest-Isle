@@ -55,3 +55,21 @@ represents a mostly-private portfolio.
   next push to `main` / 12h schedule.
 - Light-mode is a secondary target: transparent backgrounds + the chosen palette
   read acceptably on light but the design is dark-optimized.
+
+## Update (same day) — de-template pass
+
+User feedback: emoji headers + capsule/skill-icons/readme-stats read as
+"AI-generated template." Pivoted to hand-crafted SVGs in a unified
+Dark-Academia × Terminal language (matches the senyu.blog identity):
+
+- Header: bespoke SVG terminal window (`assets/header-dark.svg`) — replaces
+  capsule-render + typing-svg.
+- Stack: `assets/stack-dark.svg` (`tree`-style panel) — replaces skill-icons.
+- Stats: `assets/stats-dark.svg` (neofetch-style profile panel) — replaces
+  github-readme-stats + top-langs + streak. Live numbers dropped on purpose;
+  public stats were near-zero so a designed static panel reads better.
+- Section headers: emoji → terminal commands (`$ cat manifesto.txt`,
+  `$ tree stack/`, `$ neofetch`, `$ ls projects/`).
+- Projects: markdown terminal listing with clickable links (SVG links aren't
+  clickable on GitHub) — replaces pin cards.
+- Only remaining external/live element: the Platane/snk contribution snake.
