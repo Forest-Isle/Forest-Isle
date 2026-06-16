@@ -1,209 +1,78 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00d4ff&height=200&section=header&text=Forest%20Isle&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=between%20the%20kernel%20and%20the%20model&descAlignY=60&descSize=18" width="100%" alt="Forest Isle" />
+
+<a href="https://github.com/Forest-Isle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=640&height=50&lines=systems+that+think;Rust+rewrites+%C2%B7+CUDA+kernels+%C2%B7+agent+loops;low-level+by+choice+%C2%B7+high-impact+by+design" alt="typing tagline" />
+</a>
+
+</div>
+
+---
+
+## `> whoami`
+
+> Deep in the stack — between CUDA kernels and the models that run on them.
+> I build systems that think, and study the ones that defend.
+> Rust where C++ used to bleed. Low-level by choice, high-impact by design.
+> Not a title — a habit.
+
+---
+
+## ⚙ · STACK
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=go,rust,py,cpp,c,ts,swift,bash,html&theme=dark" alt="languages" />
+
+<img src="https://skillicons.dev/icons?i=pytorch,docker,linux,git,neovim&theme=dark" alt="tools" />
+
+</div>
+
+---
+
+## 📊 · STATS
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Forest-Isle&show_icons=true&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e&include_all_commits=true" height="165" alt="stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Forest-Isle&layout=compact&hide_border=true&bg_color=00000000&title_color=00D4FF&text_color=8b949e&langs_count=8" height="165" alt="top languages" />
+
+<img src="https://streak-stats.demolab.com?user=Forest-Isle&hide_border=true&background=00000000&border=00000000&ring=00D4FF&fire=CC7832&currentStreakLabel=00D4FF&sideLabels=8b949e&dates=6e7681&stroke=8b949e" alt="streak" />
+
+</div>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="root@forest-isle:~# whoami" src="assets/header-dark.svg" width="100%">
-</picture>
-
-<br>
-
-> ***Deep in the stack. Between CUDA kernels and Win32 syscalls. Where LLMs meet evasions and Rust rewrites C++ nightmares. I build things that think. I break things that defend. Writing Assembly before breakfast. Low-level by choice. High-impact by design. This isn't a job title — it's an obsession.*** ☠
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img alt="" src="assets/divider-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Forest-Isle/Forest-Isle/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Forest-Isle/Forest-Isle/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Forest-Isle/Forest-Isle/output/github-contribution-grid-snake.svg" width="100%" alt="contribution snake" />
 </picture>
 
 ---
 
-## ⚔️ · ARSENAL
+## 🛠 · PROJECTS
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/skills-light.svg">
-  <img alt="Arsenal: languages, AI/ML, offensive, infrastructure" src="assets/skills-dark.svg" width="100%">
-</picture>
+<div align="center">
 
-<br>
+<a href="https://github.com/Forest-Isle/IronClaw">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Forest-Isle&repo=IronClaw&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e" alt="IronClaw" />
+</a>
+<a href="https://github.com/Forest-Isle/DeepRadar">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Forest-Isle&repo=DeepRadar&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e" alt="DeepRadar" />
+</a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
-  <img alt="Threat radar: offensive 95%, languages 92%, systems 90%, AI 88%, infra 85%" src="assets/radar-dark.svg" width="100%">
-</picture>
-
----
-
-## 📊 · BATTLE LOG
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img alt="Battle stats dashboard" src="assets/stats-dark.svg" width="100%">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/mission-dark.svg">
-  <img alt="Active operations briefing" src="assets/mission-dark.svg" width="100%">
-</picture>
-
----
-
-## 🏆 · ACHIEVEMENTS
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/achievements-dark.svg">
-  <img alt="Achievements showcase: 5 earned, 4 in progress" src="assets/achievements-dark.svg" width="100%">
-</picture>
-
----
-
-## 🎯 · OPERATIONS
-
-<br>
-
-<details>
-<summary><strong><code>┌─[ CHIMERA ]</code></strong> — EDR Evasion Framework</summary>
-<br>
-
-> EDR evasion through syscall proxying and memory manipulation. The scanner sweeps the room. It never sees the shadow in the corner. The ghost doesn't show up on infrared. Millions of dollars in detection engineering, and one process they'll never find.
-
-| `:: deps` | `:: status` | `:: threat` |
-|---|---|---|
-| C++ · Win32 · x64 asm | **ACTIVE** | `████ CRITICAL` |
-
-**[▶ github.com/Forest-Isle/chimera](https://github.com/Forest-Isle/chimera)**
-
-</details>
-
-<br>
-
-<details>
-<summary><strong><code>┌─[ SYNAPSE ]</code></strong> — Multi-Agent AI Swarm</summary>
-<br>
-
-> Multi-agent AI framework with MCP integration. Autonomous task execution. Swarms that finish each other's sentences. A hive mind, but the honey is code. The queen runs on a 4090, and she's hungry.
-
-| `:: deps` | `:: status` | `:: threat` |
-|---|---|---|
-| Python · MCP · LLMs | **ACTIVE** | `███░ HIGH` |
-
-**[▶ github.com/Forest-Isle/synapse](https://github.com/Forest-Isle/synapse)**
-
-</details>
-
-<br>
-
-<details>
-<summary><strong><code>┌─[ IRONCLAW ]</code></strong> — Red Team C2</summary>
-<br>
-
-> Rust-based C2 infrastructure with gRPC transport. Modular implants. Encrypted comms. Zero-day delivery system. If you're reading this packet signature, it's already too late. Your network. My rules.
-
-| `:: deps` | `:: status` | `:: threat` |
-|---|---|---|
-| Rust · gRPC · TLS | **ACTIVE** | `████ SEVERE` |
-
-**[▶ github.com/Forest-Isle/IronClaw](https://github.com/Forest-Isle/IronClaw)**
-
-</details>
-
-<br>
-
-<details>
-<summary><strong><code>┌─[ ARGON ]</code></strong> — GPU Inference Optimization</summary>
-<br>
-
-> Custom CUDA kernels and TensorRT acceleration. Squeezing blood from silicon. Milliseconds matter. Microseconds matter. Every wasted cycle is a personal insult. The GPU doesn't sleep. Neither do I.
-
-| `:: deps` | `:: status` | `:: threat` |
-|---|---|---|
-| CUDA · PyTorch · TensorRT | **ACTIVE** | `███░ HIGH` |
-
-**[▶ github.com/Forest-Isle/argon](https://github.com/Forest-Isle/argon)**
-
-</details>
-
-<br>
-
-<details>
-<summary><strong><code>┌─[ ALPHAFORGE ]</code></strong> — Autonomous Coding Agent</summary>
-<br>
-
-> Agent with tool-use, memory, and self-reflection loops. Give it a problem. Watch it think. Watch it fail. Watch it learn. Watch it win. Recursive self-improvement. It's not just coding — it's evolution.
-
-| `:: deps` | `:: status` | `:: threat` |
-|---|---|---|
-| TypeScript · AI SDK · Tool-use | **ACTIVE** | `███░ HIGH` |
-
-**[▶ github.com/Forest-Isle/AlphaForge](https://github.com/Forest-Isle/AlphaForge)**
-
-</details>
-
-<br>
-
-<details>
-<summary><strong><code>┌─[ NYXRAT ]</code></strong> — Post-Exploitation Toolkit</summary>
-<br>
-
-> Stealth toolkit with encrypted C2 channels. Named after the goddess of night for a reason. Persistence. Privilege escalation. Lateral movement. Exfiltration. Ghost protocol. When darkness falls, so do your defenses.
-
-| `:: deps` | `:: status` | `:: threat` |
-|---|---|---|
-| C++ · Sockets · Crypto | **ACTIVE** | `████ CRITICAL` |
-
-**[▶ github.com/Forest-Isle/nyxrat](https://github.com/Forest-Isle/nyxrat)**
-
-</details>
-
----
-
-## 📡 · COMMS
-
-<br>
-
-| `nc -lvp 31337` | |
-|---|---|
-| :octocat: **GitHub** | [Forest-Isle](https://github.com/Forest-Isle) |
-| :incoming_envelope: **Mail** | [forest.isle@proton.me](mailto:forest.isle@proton.me) |
-| :signal_strength: **Status** | `ACTIVE` · accepting signal · no authentication required |
-
-<br>
-
----
-
-<p align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img alt="" src="assets/divider-dark.svg" width="60%">
-</picture>
-
-</p>
-
-<br>
-
-<p align="center"><sub>// the quieter you become, the more you are able to hear</sub></p>
-
-<br>
+</div>
 
 <!--
-    hidden in plain sight.
-
-    If you're reading this, you know the game.
-    Reach out. Let's build something that matters.
-
-    PGP: coming soon
+  Add pin cards here once these repos are made public:
+  synapse · AlphaForge · CodeForge · AgentX · TradeMind
+  <a href="https://github.com/Forest-Isle/synapse">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Forest-Isle&repo=synapse&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=CC7832&text_color=8b949e" alt="synapse" />
+  </a>
 -->
-<br>
 
-<p align="center">
+---
 
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-      (signal available · request via email)
------END PGP PUBLIC KEY BLOCK-----
-```
-
-</p>
+<div align="center">
+<sub>// the quieter you become, the more you are able to hear</sub>
+</div>
